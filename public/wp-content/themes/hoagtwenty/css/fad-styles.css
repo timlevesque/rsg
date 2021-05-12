@@ -1,0 +1,382 @@
+/**************************************
+FAD SEARCH
+***************************************/
+
+.hoagp-profile .input-group {
+    max-width: 500px;
+  }
+  
+  .search-results-title .results-message {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .search-results__filters {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 20px 0 0;
+  }
+  
+  .search-header__form .search-header__submit {
+    background: url(images/icon-search.svg) no-repeat #0C5598;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+    box-shadow: none;
+    height: 40px;
+    text-indent: -9999px;
+    width: 40px;
+    top: 10px;
+    right: 10px;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+  }
+  
+  .search-results__primary {
+    margin-right: 0;
+    padding-right: 0;
+    max-width: 870px
+  }
+  
+  .search-filters__block label {
+    text-transform: inherit;
+  }
+  
+  .search-filters__block div {
+    border-radius: 0.5rem !important;
+  }
+  
+  .search-filters__block {
+    margin: 5px 0
+  }
+  
+  .search-page {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    min-height: 200px;
+  }
+  
+  .search-page-block {
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .search-page-img img {
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 250px;
+    width: 100%;
+    height: 350px;
+  }
+  
+  .location-related .search-page-img img {
+    object-position: 90% 50%;
+  }
+  
+  @media (max-width: 575.98px) {
+    .search-page {
+        max-height: 300px;
+    }
+    .search-page-img img {
+        opacity: 0.3;
+        filter: alpha(opacity=30);
+        /* For IE8 and earlier */
+        height: 300px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .search-results-title .results-message {
+        margin-top: 5px;
+        text-align: left;
+    }
+  }
+  
+  .short-search .search-page-img img {
+    height: 350px;
+  }
+  
+  .card-deck .col-4,
+  .card-deck .col-md-4,
+  .card-deck .col-sm-6 {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 2rem;
+  }
+  
+  .fad .card-img-top {
+    max-height: 260px;
+    min-height: 260px;
+    object-position: 50% 0;
+  }
+  
+  .fad .video-icon {
+    left: 1rem;
+    top: 22rem;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  }
+  
+  .st0 {
+    fill: #1990CF;
+  }
+  
+  .st1 {
+    fill: #FFFFFF;
+  }
+  
+  .fad .card-body {
+    padding: 5px;
+  }
+  
+  .fad .card-title {
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .fad .physician-card-speciality {
+    padding: 5px 0;
+  }
+  
+  .fad .physician-card-city {
+    padding: 5px 0 0 0;
+  }
+  
+  .fad .physician-card-footer {
+    padding: 5px 5px 10px;
+  }
+  
+  .fad-subtext {
+    padding-left: 1.3em;
+  }
+  
+  @media (max-width: 575.98px) {
+    .fad .card-img-top {
+        max-height: 190px;
+        min-height: 190px;
+    }
+    .fad .video-icon {
+        left: 0.5rem;
+        top: 15.5rem;
+    }
+  }
+  
+  .fad-search-results {
+    padding-left: 1rem;
+  }
+  
+  .single-hoagp-physician main ul {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  .search-results {
+    padding: 0 15px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .doctors .container-fluid {
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .fad-search-results {
+        padding: 0rem;
+    }
+    .search-results-title .col-7 {
+        padding-left: 0.5rem;
+    }
+    .search-results-title .results-message {
+        margin-top: 0px;
+        padding-left: 0;
+    }
+  }
+  
+  
+  /***************************
+  FAD bottom of page filter
+  ***************************/
+  
+  .filter-bottom {
+    background-color: #456482;
+    max-height: 630px;
+  }
+  
+  .search-results__filters {
+    display: none;
+  }
+  
+  .filter-bottom .card-header .col-8 h4 {
+    display: none;
+  }
+  
+  .filter-bottom .search-filters__block label {
+    text-align: left;
+    margin-bottom: 10px;
+    padding-top: 0.5rem;
+  }
+  
+  .filter-bottom .search-filters__block {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .filter-bottom .card-header {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .filter-bottom .card-body {
+    padding-top: 0.5rem;
+  }
+  
+  @media(max-width: 1000px) {
+    .fad-footer {
+        margin-bottom: 4rem;
+    }
+  }
+  
+  .down-caret {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 7px 0 7px;
+    border-color: #ffffff transparent transparent transparent;
+    display: inline-block;
+    margin-left: 6px;
+    top: -3px;
+    position: relative;
+    transform: rotate(180deg);
+    transition: all .25s ease-in;
+  }
+  
+  .open-caret {
+    transform: rotate(0deg);
+    transition: all .25s ease-out;
+  }
+  
+  @media (max-width: 767.98px) {
+    .filter-bottom .gender-row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .filter-bottom .card-body {
+        line-height: 7px;
+    }
+  }
+  
+  
+  /*******************************
+  FAD DETAILS
+  ********************************/
+  
+  .physician-top-block {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0 0 0 0;
+  }
+  
+  .physician-block {
+    padding-left: 10px;
+  }
+  
+  .physician-pic img {
+    width: 100%;
+    height: 100%;
+    object-position: 50% 0%;
+    max-height: 400px;
+  }
+  
+  @media (max-width: 320px) {
+    .physician-pic img {
+        width: 250px;
+        height: 100%;
+        object-position: 50% 0%;
+        max-height: 400px;
+    }
+  }
+  
+  .physician-info-details {
+    padding-left: 20px;
+  }
+  
+  .no-gutters>.physician-info-details {
+    padding-left: 10px;
+  }
+  
+  .no-gutters>.office-block {
+    padding: 10px 0;
+  }
+  
+  .physician-info-block {
+    padding: 10px 0;
+  }
+  
+  .no-gutters>.physician-block {
+    padding-left: 10px;
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .no-gutters>.physician-pic,
+    .physician-info-block,
+    .physician-info-title,
+    .no-gutters>.physician-block {
+        padding-left: 10px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .physician-info-title {
+        padding-left: 10px;
+    }
+    .no-gutters>.physician-pic img {
+        min-height: 300px;
+    }
+  }
+  
+  
+  /*physician info hover*/
+  
+  .physician-block .row svg {
+    fill: #0C5598;
+  }
+  
+  .physician-block .row:hover svg {
+    fill: #2292CD;
+  }
+  
+  .physician-block .row:hover a {
+    color: #2292CD;
+  }
+  
+  
+  /*infine scroll loader*/
+  
+  .malinky-ajax-pagination-loading {
+    display: none;
+    width: 1000px;
+    margin: 40px 0;
+    text-align: center
+  }
+  
+  .malinky-ajax-pagination-loading img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 70px;
+    margin-bottom: 70px;
+  }
+  
+  .truncated_exercept {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
